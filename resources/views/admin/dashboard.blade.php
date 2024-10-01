@@ -1,15 +1,11 @@
-@extends('layouts.app')
+@extends('layout.app')
 
 @section('title', 'Dashboard')
 
 @section('content')
     {{-- <h1>Welcome to Dashboard</h1> --}}
-    <!-- Tambahkan elemen konten lain sesuai dengan template -->
-    <!--! ================================================================ !-->
-    <!--! [Start] Main Content !-->
-    <!--! ================================================================ !-->
     {{-- <main class="nxl-container"> --}}
-    <div class="nxl-content ms-5 mr-0">
+    <div class="nxl-content">
         <!-- [ page-header ] start -->
         <div class="page-header">
             <div class="page-header-left d-flex align-items-center">
